@@ -2,6 +2,19 @@
 Python3 Indicator to toggle the Screensaver for the Gnome Desktop (Caffeine)
 ___
 ### Run
+#### (install the necessary Python Packages for your Linux Distribution)
 ```
-python3 screensaver.py
+python3 gnome-screensaver.py
+```
+___
+### Create a Autostarter
+Test it, befor you create a Autostarter and then copy the file to "/usr/local/src/".
+Then create the file "~/.config/autostart/gnome-screensaver.desktop" with the content:
+```
+[Desktop Entry]
+Type=Application
+Name=Screensaver Indicator
+Exec=/usr/local/src/gnome-screensaver.py
+Icon=preferences-desktop-screensaver
+Comment=Switch Screensaver Mode
 ```

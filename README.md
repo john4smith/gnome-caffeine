@@ -1,5 +1,6 @@
 # gnome-caffeine
 Python3 Indicator to toggle the Screensaver for the Gnome Desktop (Caffeine)
+![Alt text](/screenshot.png?raw=true "Screenshot")
 ___
 ### Run
 #### (install the necessary Python Packages for your Linux Distribution)

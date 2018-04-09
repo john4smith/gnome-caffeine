@@ -4,7 +4,7 @@ Python3 Indicator to toggle the Screensaver for the Gnome Desktop (Caffeine)
 ___
 ### Run
 - install the necessary Python Packages for your Linux Distribution
-- install one Extensions for Gnome [appindicator](https://extensions.gnome.org/extension/615/appindicator-support/) or [topicons](https://extensions.gnome.org/extension/1031/topicons/)
+- install one Extension for Gnome [appindicator](https://extensions.gnome.org/extension/615/appindicator-support/) or [topicons](https://extensions.gnome.org/extension/1031/topicons/)
 ```
 python3 gnome-screensaver.py
 ```

@@ -16,13 +16,9 @@ sudo install -dm755 /usr/local/src
 sudo install -m755 gnome-caffeine.py /usr/local/src
 ```
 ___
-### Create a Autostarter
-Create a File "~/.config/autostart/gnome-caffeine.desktop" with the content:
+### Setup the Autostarter
+Copy the Desktop File to the Autostart Folder:
 ```
-[Desktop Entry]
-Type=Application
-Name=Caffeine Indicator
-Exec=/usr/local/src/gnome-caffeine.py
-Icon=preferences-desktop-screensaver
-Comment=Switch Screensaver Mode
+mkdir -p ~/.config/autostart/
+cp gnome-caffeine.desktop ~/.config/autostart/.
 ```

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Caffeine Indicator
+Exec=/usr/local/src/gnome-caffeine.py
+Icon=preferences-desktop-screensaver
+Comment=Switch Screensaver Mode

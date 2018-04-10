@@ -13,12 +13,14 @@ ___
 Copy the Script to "/usr/local/src/" with:
 ```
 sudo install -dm755 /usr/local/src
+sudo install -dm755 /usr/local/share/applications
 sudo install -m755 gnome-caffeine.py /usr/local/src
+sudo install -m644 gnome-caffeine.desktop /usr/local/share/applications
 ```
 ___
 ### Setup the Autostarter
 Copy the Desktop File to the Autostart Folder:
 ```
 mkdir -p ~/.config/autostart/
-cp gnome-caffeine.desktop ~/.config/autostart/.
+cp /usr/local/share/applications/gnome-caffeine.desktop ~/.config/autostart/.
 ```

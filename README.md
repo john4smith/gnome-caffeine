@@ -10,7 +10,7 @@ python3 gnome-caffeine.py
 ```
 ___
 ### Install
-Copy the Script to "/usr/local/src/" with:
+Copy the Script to "/usr/local/src/" and the Desktop File to "/usr/local/share/applications/" with:
 ```
 sudo install -dm755 /usr/local/src
 sudo install -dm755 /usr/local/share/applications

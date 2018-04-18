@@ -8,6 +8,10 @@ ___
 ```
 python3 gnome-caffeine.py
 ```
+#### for Ubuntu 18.04 default setup, install this Packages
+```
+sudo apt install python3-gi gir1.2-appindicator3-0.1
+```
 ___
 ### Install
 Copy the Script to "/usr/local/src/" and the Desktop File to "/usr/local/share/applications/" with:
